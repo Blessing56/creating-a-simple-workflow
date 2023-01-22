@@ -35,6 +35,6 @@ workflows:
     jobs:
       - welcome-message
       - enter_readme:
-          require:
+          requires:
             - welcome-message
 
