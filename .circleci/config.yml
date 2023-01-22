@@ -25,7 +25,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: view readme
+          name: view-readme
           command:
             echo Thank You
 
